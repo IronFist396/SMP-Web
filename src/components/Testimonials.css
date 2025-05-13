@@ -1,0 +1,41 @@
+
+.testimonials-container {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+    padding-bottom: 2%;
+}
+
+.testimonial-card {
+    border: none;
+    font-family: 'Lato';
+    background-color: #f8f9fa;
+    transition: transform 0.3s ease;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-5px);
+}
+
+.testimonial-img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid #000;
+}
+
+.card-text {
+    font-size: 1.1rem;
+    font-style: italic;
+    color: #555;
+}
+
+.card-title {
+    font-weight: 600;
+    color: #000;
+}

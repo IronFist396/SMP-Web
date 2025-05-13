@@ -1,0 +1,28 @@
+
+.footer {
+  background-color: #000;
+  color: #ccc;
+  text-align: center;
+  padding: 2rem 1rem;
+  font-family: 'Lato', sans-serif;
+}
+
+.social-icons {
+  margin-bottom: 1rem;
+}
+
+.iconf {
+  font-size: 2rem;
+  margin: 0 2rem;
+  color: #888;
+  transition: color 0.3s ease;
+}
+
+.iconf:hover {
+  color: #fff;
+}
+
+.footer-info p {
+  margin: 0.3rem 0;
+  font-size: 0.95rem;
+}

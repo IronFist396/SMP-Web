@@ -1,0 +1,52 @@
+.brand-slider-container {
+  overflow: hidden;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.slider-track {
+  display: flex;
+  width: fit-content;
+  animation: scroll-left 25s linear infinite;
+}
+
+.logo-wrapper {
+  flex: 0 0 auto;
+  margin-right: 200px; 
+}
+
+.brand-logo {
+  height:6rem;
+  width: auto;
+  opacity: 1;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.brand-logo:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+@media (max-width: 768px) {
+  .slider-track {
+    animation-duration: 15s;
+  }
+.brand-logo {
+  height:4rem;
+  width: auto;
+  opacity: 1;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+.logo-wrapper {
+  flex: 0 0 auto;
+  margin-right: 150px; 
+}
+}
