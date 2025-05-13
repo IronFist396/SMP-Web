@@ -9,8 +9,9 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "serve": "serve -s dist",
     "predeploy": "npm run build",
-    "deploy":"gh--pages -d build",
+    "deploy":"gh-pages -d build"
   },
   "dependencies": {
     "bootstrap": "^5.3.6",
