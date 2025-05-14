@@ -11,7 +11,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/SMP-Web">
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/about" element={<About />} />
