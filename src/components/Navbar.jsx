@@ -3,9 +3,14 @@ import { Navbar, Nav, Container } from 'react-bootstrap';
 import { Link, useLocation } from 'react-router-dom';
 import logo from '../assets/logo2.png'
 
-const CustomNavbar = ({ links }) => {
+const CustomNavbar = () => {
   const location = useLocation();
-
+  const links = [
+    { name: 'Home', path: '/' },
+    { name: 'About', path: '/about' },
+    { name: 'Contact', path: '/contact' },
+    { name: 'Services', path: '/services' },
+  ];
   return (
     <Navbar bg="light" expand="lg" sticky="top" className="shadow-sm">
       <Container>

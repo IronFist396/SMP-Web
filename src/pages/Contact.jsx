@@ -5,13 +5,6 @@ import './Contact.css';
 import Footer from '../components/Footer'
 
 const Contact = () => {
-const links = [
-    { name: 'Home', path: '/' },
-    { name: 'About', path: '/about' },
-    { name: 'Contact', path: '/contact' },
-    { name: 'Services', path: '/services' },
-  ];
-
     const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -46,7 +39,7 @@ const links = [
 
 
     return <>
-    <Navbar companyName="MyCompany" links={links} />
+    <Navbar/>
     <div className="contact-container">
       <h1>Contact Us</h1>
       <form onSubmit={handleSubmit} noValidate>

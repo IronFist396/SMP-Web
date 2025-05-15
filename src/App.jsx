@@ -16,7 +16,7 @@ const App = () => {
   return (
     <>
       <div>
-        <CustomNavbar companyName="MyCompany" links={links} />
+        <CustomNavbar links={links} />
         <Hero/>
         <BrandSlider/>
         <Testimonials/>

@@ -6,15 +6,9 @@ import Hero2 from '../components/Hero2'
 import Stats from '../components/Stats';
 
 const About = () => {
-const links = [
-    { name: 'Home', path: '/' },
-    { name: 'About', path: '/about' },
-    { name: 'Contact', path: '/contact' },
-    { name: 'Services', path: '/services' },
-  ];
 
     return <>
-    <Navbar companyName="MyCompany" links={links} />
+    <Navbar/>
     <Hero2/>
     <div className="about-container">
       <h1>About Us</h1>

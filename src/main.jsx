@@ -6,8 +6,8 @@ import App from './App.jsx';
 import About from './pages/About.jsx';
 import Contact from './pages/Contact.jsx';
 import Services from './pages/Services.jsx';
+import NotFound from './pages/NotFound.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -17,6 +17,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/services" element={<Services />} />
+        <Route path="*" element={<NotFound />} /> 
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

@@ -39,15 +39,10 @@ const services = [
 ];
 
 const Services = () => {
-    const links = [
-    { name: 'Home', path: '/' },
-    { name: 'About', path: '/about' },
-    { name: 'Contact', path: '/contact' },
-    { name: 'Services', path: '/services' },
-  ];
+
   return (
       <>
-        <Navbar companyName="MyCompany" links={links} />
+        <Navbar/>
         <div className="services-container1">
             <h1 className="services-title">Signature Services</h1>
             <p className="services-subtitle">More than a makeover — it's your car, <em>reimagined</em></p>
