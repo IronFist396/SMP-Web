@@ -5,7 +5,7 @@ To run the code locally, follow these steps <br>
 Begin by cloning the repository to your local machine <br>
 ```git clone https://github.com/IronFist396/SMP-Web``` <br>
 - Navigate to the project directory <br>
-Change into the project directory:
+Change into the project directory: <br>
 ```cd <project_directory>``` <br>
 
 - Install Dependencies <br>
