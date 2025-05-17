@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>User Manager</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1 style="text-align: center;">Admin Panel</h1>
+
+    <h3>Add User</h3>
+    <form id="userForm">
+      <input type="text" id="name" placeholder="Name" required />
+      <input type="email" id="email" placeholder="Email" required />
+      <input type="number" id="age" placeholder="Age (optional)" />
+      <button type="submit">Add User</button>
+    </form>
+
+    <h3>Search User</h3>
+    <form id="searchForm">
+      <input type="text" id="searchName" placeholder="Search by name" />
+      <input type="number" id="searchAge" placeholder="Search by age" />
+      <button type="submit">Search</button>
+    </form>
+
+
+    <table id="userTable">
+      <thead>
+        <tr><th>Name</th><th>Email</th><th>Age</th><th>Actions</th></tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <div class="pagination">
+      <button id="prevBtn">Previous</button>
+      <span id="pageNum">Page 1</span>
+      <button id="nextBtn">Next</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

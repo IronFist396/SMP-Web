@@ -1,5 +1,13 @@
 # SMP Web Nominee Assignment Submission
 
+### The website (for Question 1) can be accessed at: https://ironfist396.github.io/SMP-Web
+
+### Rest of the Questions (Question 2 and 3) are in the folder named Q2+Q3
+
+<br>
+<br>
+<br>
+
 To run the code locally, follow these steps <br>
 - Clone the repository <br>
 Begin by cloning the repository to your local machine <br>
