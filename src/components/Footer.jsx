@@ -14,6 +14,7 @@ const Footer = () => {
         <p>F1 Cars, Beverly Hills, CA   </p>
         <p>&copy; {new Date().getFullYear()} All rights reserved.</p>
       </div>
+      <a href="./Attendance.xlsx" download>here</a>
     </footer>
   );
 };
